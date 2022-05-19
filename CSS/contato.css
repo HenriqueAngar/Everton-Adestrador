@@ -1,0 +1,58 @@
+
+.contatos_box{
+
+    background-color: var(--azul);
+    margin-top: 40px;
+    padding-top: 60px;
+}
+
+.contatos_texto-conteudo{
+
+    color: var(--amareloClaro);
+    font-family: var(--texto);
+    font-size: 30px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.contatos_texto-contato{margin-top: 30px;}
+
+.contatos_botoes-box{
+
+    width: fit-content;
+    margin: 0 auto;
+    padding-right: 200px;
+}
+
+.contatos_botoes{
+
+    display: inline-flex;
+    margin: 0 auto;
+}
+
+.contatos_botao{
+    height: 300px;
+    width: 300px;
+}
+
+.contatos_botao-iconeDog{
+    
+    left: -100px;
+    top: 0;
+    transform: scale(0.5);
+}
+
+.contatos_botao-icone{
+    
+    transform: scale(0.35);
+}
+
+.angar_logo{
+
+    background-image: url("/IMG/angar.svg");
+    background-position: center;
+    background-size: 400px 250px;
+    height: 150px;
+    margin: 0 auto;
+    width: 250px;
+}
