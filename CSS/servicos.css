@@ -1,0 +1,60 @@
+
+.servicos_moldura{
+
+    margin-top: 50px;
+}
+
+.servicos_painel{
+
+    height: 600px;
+    margin: 0 auto;
+    max-width: 1130px;
+    width: auto;
+}
+
+.servicos_quadros{
+
+    display: inline-flex;
+}
+
+.servicos_servico{ margin: 0 10px;}
+
+.servicos_quadro{
+
+    background-color: var(--verdeEscuro);
+    height: 530px;
+    width: 350px;
+}
+
+.servicos_quadro-titulo{
+
+    color: var(--branco);
+    font-family: var(--tituloSerio);
+    font-size: 25px;
+    font-style: bold;
+    padding-top: 15px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.servicos_quadro-foto1, .servicos_quadro-foto2, .servicos_quadro-foto3{
+    
+    background-position: center;
+    height: 275px;
+    margin: 15px auto;
+    width: 320px;
+}
+
+.servicos_quadro-foto1{ background-image: url("/IMG/dogGuia.png");}
+.servicos_quadro-foto2{ background-image: url("/IMG/dogGrupo.png"); background-size: 320px 410px;}
+.servicos_quadro-foto3{ background-image: url("/IMG/dogPasseio.png");}
+
+.servicos_quadro-texto{
+
+    color: var(--branco);
+    font-family: var(--texto);
+    font-size: 16px;
+    margin: 0 auto;
+    text-align: justify;
+    width: 320px;
+}

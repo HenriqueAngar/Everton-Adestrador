@@ -22,10 +22,13 @@ body{
     background-color: var(--branco);
 }
 
-.titulo_dicas{
+.titulo_dicas, .titulo_servicos, .titulo_contatos{
 
-    color: var(--azul);
     font-family: var(--tituloFun);
     font-size: 65px;
     text-align: center;
 }
+
+.titulo_dicas{ color: var(--azul);}
+.titulo_servicos{color: var(--verdeEscuro)}
+.titulo_contatos{ color: var(--amareloEscuro)}
