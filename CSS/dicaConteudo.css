@@ -1,0 +1,73 @@
+
+.dicas_passos{
+
+    padding-top: 10px;
+    margin: 0 auto;
+    width: 95%;
+}
+.dicas_passo-quadro{
+
+    color: var(--preto);
+    font-family: var(--texto);
+    font-size: 14px;
+    height: 157px;
+    margin: 7px auto;
+    text-align: justify;
+    vertical-align: middle;
+    width: 90%;
+}
+
+.dicas_passo-itemVertical{
+
+    position: relative;
+}
+
+.dicas_passo-paisagem{
+
+    
+    background-image: url("/IMG/afastado.png");
+    background-size: cover;
+    background-position: center;
+    height: 100px;
+}
+
+.dicas_passo-listaHorizontal{
+
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.dicas_passo-item{
+
+    margin-top: 20px;
+    padding: 5px;
+    width: 45%;
+}
+
+.dicas_passo-retrato1, .dicas_passo-retrato2, .dicas_passo-retrato3, .dicas_passo-retrato4,
+.dicas_passo-retrato5, .dicas_passo-retrato6, .dicas_passo-retrato7, .dicas_passo-retrato8{
+
+    background-size: cover;
+    background-position: center;
+    height: 120px;
+    position: relative;
+    top: -20px;
+}
+.dicas_passo-retrato1{ background-image: url("/IMG/normal.png");}
+.dicas_passo-retrato2{ background-image: url("/IMG/adestradora.svg");}
+.dicas_passo-retrato3{ background-image: url("/IMG/dogFrente.png");}
+.dicas_passo-retrato4{ background-image: url("/IMG/dogSentado.png");}
+.dicas_passo-retrato5{ background-image: url("/IMG/dogOi.png");}
+.dicas_passo-retrato6{ background-image: url("/IMG/thanos.svg");}
+.dicas_passo-retrato7{ background-image: url("/IMG/dogDeitado.png");}
+.dicas_passo-retrato8{ background-image: url("/IMG/dePe.png");}
+
+.dicas_passo-texto{
+
+    position: relative;
+    top: -50px;
+}
+.dicas_passo-fig{
+
+    width: 100px;  
+}

@@ -2,11 +2,14 @@
 .cabecalho_box{
 
     font-family: var(--tituloSerio);
-    font-size: 38px;
+    font-size: 32px;
     font-weight: bold;
     color: var(--azul);
-    max-width: 1500px;
+    max-height: calc(200px + 38px);
+    height: auto;
+    max-width: 1290px;
     margin: 0 auto;
+    padding-top: 20px;
     text-decoration: underline;
     width: auto;
 }
@@ -14,7 +17,6 @@
 
     display: inline-flex;
     margin: auto auto;
-    padding: 30px;
     width: 100%;
     justify-content: space-around;
 }
@@ -22,21 +24,23 @@
 .cabecalho_itens-item, .cabecalho_itens-nav,.cabecalho_logo{
 
     display: inline-flex;
+    max-height: fit-content;
+    height: auto;
 }
 
 .cabecalho_logo-texto{
 
-    padding-top: calc(250px - 38px)
+    padding-top: calc(200px - 38px)
 }
 .cabecalho_logo-img{
 
-    height: 250px;
-    width: 250px;
+    height: 200px;
+    width: 200px;
 }
 
 .cabecalho_itens-link{
 
-    padding: calc(250px - 38px) 25px;
+    padding: calc(200px - 38px) 25px;
 }
 
 .cabecalho_itens-link:hover{

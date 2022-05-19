@@ -1,0 +1,47 @@
+
+.dicas_corpo{
+
+    margin: 100px auto;
+    max-width: 1130px;
+    width: auto;
+}
+
+.dicas_conteudo{
+
+    height: 85vh;
+    margin-top: 50px;
+}
+
+.dicas_item{
+
+    display: inline-flex;
+    height: fit-content;
+}
+
+.dicas_quadro{
+
+    background-color: var(--azul);
+    border-radius: 50px;
+    height: 600px;
+    width: 350px;
+    margin: 0 10px;
+}
+
+.dicas_quadro-titulo{
+
+    color: var(--amareloClaro);
+    font-family: var(--tituloFun);
+    font-size: 35px;
+    padding: 20px;
+    text-align: center;
+}
+
+.dicas_quadro-conteudo{
+
+    background-color: var(--verdeClaro);
+    border-radius: 30px;
+    height: calc(600px - 95px);
+    margin: 0 auto;
+    width: calc(350px - 40px);
+}
+
