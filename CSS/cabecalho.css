@@ -1,0 +1,47 @@
+
+.cabecalho_box{
+
+    font-family: var(--tituloSerio);
+    font-size: 38px;
+    font-weight: bold;
+    color: var(--azul);
+    max-width: 1500px;
+    margin: 0 auto;
+    text-decoration: underline;
+    width: auto;
+}
+.cabecalho_itens{
+
+    display: inline-flex;
+    margin: auto auto;
+    padding: 30px;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.cabecalho_itens-item, .cabecalho_itens-nav,.cabecalho_logo{
+
+    display: inline-flex;
+}
+
+.cabecalho_logo-texto{
+
+    padding-top: calc(250px - 38px)
+}
+.cabecalho_logo-img{
+
+    height: 250px;
+    width: 250px;
+}
+
+.cabecalho_itens-link{
+
+    padding: calc(250px - 38px) 25px;
+}
+
+.cabecalho_itens-link:hover{
+
+    color: var(--amareloEscuro);
+    cursor: pointer;
+    font-size: 42px;
+}
