@@ -58,3 +58,20 @@
     text-align: justify;
     width: 320px;
 }
+
+@media screen and (max-width: 720px){
+
+    .servicos_moldura{ 
+
+        height: 1700px;
+        margin-top: 0;
+    }
+
+    .servicos_servico{ margin: 30px 0}
+
+    .servicos_quadros{ display: block;}
+
+    .servicos_quadro{ width: 100vw;}
+
+    .titulo_servicos{ font-size: 32px;}
+}

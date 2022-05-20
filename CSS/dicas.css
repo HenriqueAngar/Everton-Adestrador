@@ -45,3 +45,21 @@
     width: calc(350px - 40px);
 }
 
+@media screen and (max-width: 720px){
+
+    .dicas_corpo{ margin-top: 50px;}
+
+    .dicas_quadro, .dicas_conteudo{ height: auto;}
+
+    .titulo_dicas{ font-size: 27px;}
+
+    .dicas_item{ margin-bottom: 5px;}
+
+    .dicas_quadro{
+
+        height: 590px;
+        margin: 5px;
+    }
+    .dicas_quadro-titulo{ font-size: 21px;}
+
+}

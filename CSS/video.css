@@ -25,3 +25,19 @@
     height: 600px;
     width: 1080px;
 }
+
+@media screen and (max-width: 720px){
+
+    .video_box{
+
+        padding: 0;
+    }
+
+    .video_box-moldura{ padding: 10px;}
+
+    .video_video{
+
+        height: 190px;
+        width: calc(100vw - 20px);
+    }
+}

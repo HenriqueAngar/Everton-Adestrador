@@ -47,3 +47,42 @@
     color: var(--amareloEscuro);
     font-size: 30px;
 }
+
+@media screen and (max-width: 720px){
+
+    .cabecalho_box{ 
+        font-size: 20px;
+        margin-top: 80px;
+        width: 100vw;
+    }
+
+    .cabecalho_logo, .cabecalho_box-moldura{ display: block;}
+
+    .cabecalho_logo-img{
+
+        height: 150px;
+        width: 150px;
+    }
+
+    .cabecalho_logo-linha, .cabecalho_nav-box{ margin-top: 20px;}
+
+    .cabecalho_logo-img{ margin: 0 auto; }
+
+    .cabecalho_logo-texto{
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .cabecalho_nav-box{
+        margin: 0 auto; 
+        width: fit-content;
+    }
+
+    .cabecalho_nav-link{
+        
+        margin: 0 10px;
+        padding: 0;
+    }
+
+    .cabecalho_nav-link:hover{ font-size: 25px}
+}
