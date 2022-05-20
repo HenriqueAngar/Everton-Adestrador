@@ -2,8 +2,10 @@
 .contatos_box{
 
     background-color: var(--azul);
-    margin-top: 40px;
+    margin: 40px auto;
+    max-width: 1130px;
     padding-top: 60px;
+    width: auto;
 }
 
 .contatos_texto-conteudo{
