@@ -58,3 +58,30 @@
     margin: 0 auto;
     width: 250px;
 }
+
+@media screen and (max-width: 720px){
+
+    .titulo_contatos{ font-size: 33px;}
+
+    .contatos_texto-conteudo{ font-size: 21px;}
+
+    .contatos_botoes-box{ 
+        height: 150px;
+        width: 100vw;
+    }
+
+    .contatos_botao{ 
+        margin: 0 auto;
+        width: 120px;
+    }
+
+    .contatos_botao-iconeDog{ 
+        width: 120px;
+    }
+
+    .contatos_botao-icone{ 
+        
+        margin: auto auto;
+        width: 120px;
+    }
+}
