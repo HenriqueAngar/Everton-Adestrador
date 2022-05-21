@@ -37,17 +37,17 @@
     text-decoration: underline;
 }
 
-.servicos_quadro-foto1, .servicos_quadro-foto2, .servicos_quadro-foto3{
-    
-    background-position: center;
+.servicos_quadro-espaco{
+
+    margin: 0 auto;
+    width: fit-content;
+}
+.servicos_quadro-foto{
+
     height: 275px;
     margin: 15px auto;
     width: 320px;
 }
-
-.servicos_quadro-foto1{ background-image: url("/IMG/dogGuia.png");}
-.servicos_quadro-foto2{ background-image: url("/IMG/dogGrupo.png"); background-size: 320px 410px;}
-.servicos_quadro-foto3{ background-image: url("/IMG/dogPasseio.png");}
 
 .servicos_quadro-texto{
 

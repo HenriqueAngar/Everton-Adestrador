@@ -53,12 +53,16 @@
 
     .titulo_dicas{ font-size: 27px;}
 
-    .dicas_item{ margin-bottom: 5px;}
+    .dicas_item{ 
+        
+        margin-bottom: 5px;
+        width: 100%;
+    }
 
     .dicas_quadro{
 
         height: 590px;
-        margin: 5px;
+        margin: 5px auto;
     }
     .dicas_quadro-titulo{ font-size: 21px;}
 
