@@ -49,13 +49,18 @@
     transform: scale(0.35);
 }
 
+.angar_box{ 
+    margin: 0 auto;
+    height: 100px;
+    width: fit-content;
+}
+
 .angar_logo{
 
-    background-image: url("/IMG/angar.svg");
-    background-position: center;
-    background-size: 400px 250px;
     height: 150px;
     margin: 0 auto;
+    position: relative;
+    top: -30px;
     width: 250px;
 }
 
